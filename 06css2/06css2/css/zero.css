@@ -1,0 +1,137 @@
+Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+:focus,
+:active {
+	outline: none;
+}
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 25px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: 400;
+}
+/*----------------------------------------------*/
+.arial {
+	font-family: Arial, "Helvetica Neue", Heivetica, sans-serif;
+}
+.fontsize30 {
+	font-size: 30px;
+}
+.italic{
+	font-style: italic;
+}
+.font700{
+	font-weight: 700;
+}
+.colorred{
+	color: #f00f00;
+	}
+.textright{
+	text-align: right;
+}
+.justify{
+	text-align: justify;
+}
+.decoration{
+	text-decoration: underline;
+}
+.shadow{
+	/*1 горизоталь 2 вертикаль 3 рамытие 4 текст*/
+	text-shadow: 1px 1px 5px #000000;
+}
+.uppercase{
+	text-transform: uppercase;
+}
+.ident{
+	text-indent: 150px;
+}
+.lspace{
+	letter-spacing: 5px;
+}
+/*расстояния между словами*/
+.wspace{
+	word-spacing: 5px;
+}
+/* если надо отобразить текст в 1 строку применяют  */
+.whitespace{
+	white-space: nowrap;
+}
+.lineheight{
+	line-height: 50px;
+}
+
+
+
+
+
+28-23 https://www.youtube.com/watch?v=xWhTf_o86Lg&t=1418ss
+
+/*ВИДЕО УРОК 27:14 почему у меня не становится курсивный шрифт
+https://www.youtube.com/watch?v=seewcjGHreg&list=PLM6XATa8CAG4uCli-pMvuvwj46UaQoqIc&index=9
